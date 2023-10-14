@@ -19,7 +19,7 @@ Este é um sistema de gerenciamento de ordens de produção que permite aos usu�
    ```shell
    dotnet run
    ```
-   Ao clonar ou realizar o download do projeto, ele pode ser aberto no vscode por exemplo, bastando apenas abrir um terminal e rodar o comando acima.
+   - Ao clonar ou realizar o download do projeto, ele pode ser aberto no vscode por exemplo, bastando apenas abrir um terminal e rodar o comando acima.
 
 3. **Menu de Opções:**
    - O sistema oferecerá um menu com várias opções (1 a 8).
