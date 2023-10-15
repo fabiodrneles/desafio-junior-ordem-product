@@ -1,6 +1,7 @@
 ﻿# Sistema de Gerenciamento de Ordens de Produção
 
 Este é um sistema de gerenciamento de ordens de produção que permite usuários realizarem várias operações de gerenciamento de produção. O sistema para este desafio técnico foi desenvolvido em .NET/C#.
+OBS: Minha solução para os dados de saída no desafio, foi gerar dois arquivos em JSON para que assim os dados possam ser utilizados por qualquer outro sistema, independente de linguagem de programação, ficando acessível e disponível.
 
 ## Requisitos
 
