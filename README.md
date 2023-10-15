@@ -59,7 +59,7 @@ OBS: Minha solução para os dados de saída no desafio, foi gerar dois arquivos
 
      ![image](https://github.com/fabiodrneles/desafio-junior-ordem-product/assets/42509240/7a11d083-471e-4731-8753-d49d7a50bf1f)
 
-     Estes arquivos estão com a data e hora no formato ISO 8601 (YYYY-MM-DDTHH:MM:SS), onde "YYYY" representa o ano, "MM" o mês, "DD" o dia, "THH" a hora, "MM" os minutos e "SS" os segundos. Porém a hora foi suprimida a nivel de codigo, caso deseje basta modificar no codigo para que seja fornecida esta informação da hora.
+     O arquivo orders.json esta com a data e hora no formato ISO 8601 (YYYY-MM-DDTHH:MM:SS), onde "YYYY" representa o ano, "MM" o mês, "DD" o dia, "THH" a hora, "MM" os minutos e "SS" os segundos. Porém a hora foi suprimida a nivel de codigo, caso deseje basta modificar no codigo para que seja fornecida esta informação da hora.
 
 
 ## Exemplos de Uso
