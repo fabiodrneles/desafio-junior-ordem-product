@@ -61,6 +61,10 @@ OBS: Minha solução para os dados de saída no desafio, foi gerar dois arquivos
 
      O arquivo orders.json esta com a data e hora no formato ISO 8601 (YYYY-MM-DDTHH:MM:SS), onde "YYYY" representa o ano, "MM" o mês, "DD" o dia, "THH" a hora, "MM" os minutos e "SS" os segundos. Porém a hora foi suprimida a nivel de codigo, caso deseje basta modificar no codigo para que seja fornecida esta informação da hora.
 
+    ## Algumas tratativas não foram realizadas devido ao curto tempo que tive até então para a entrega do desafio, sendo assim ao longo do tempo irei ajustar alguns erros como:
+     ### O usuário digitar uma string com diferenciais de maiusculas e minusculas ao cadastrar e ao consultar, gerando assim um erro pois a string não é a mesma.
+     ### A data digitada ser retrógrada, como no print 1985, ou ser possivel datas como 02/04/1756, gerando incoerência.
+
 
 ## Exemplos de Uso
 
