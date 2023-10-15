@@ -5,7 +5,8 @@ OBS: Minha solução para os dados de saída no desafio, foi gerar dois arquivos
 
 ## Requisitos
 
-- Ambiente de desenvolvimento C# ( SDK e demais requisitos para a tecnologia .NET/C# )
+- Ambiente de desenvolvimento C# ( SDK, IDE e demais requisitos para a tecnologia .NET/C# )
+- link para ajudar quem ainda não conhece como rodar um projeto .NET/C# no VSCODE https://www.youtube.com/watch?v=YEtisxQugew
 - Conhecimento básico de C#
 - Git (opcional, para clonar o repositório)
 
