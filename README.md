@@ -23,8 +23,44 @@ OBS: Minha solução para os dados de saída no desafio, foi gerar dois arquivos
    - Ao clonar ou realizar o download do projeto, ele pode ser aberto no vscode por exemplo, bastando apenas abrir um terminal e rodar o comando acima.
 
 3. **Menu de Opções:**
+   
+   
+   ![image](https://github.com/fabiodrneles/desafio-junior-ordem-product/assets/42509240/c9326459-da70-4d1d-80f2-6d090385c0d3)
+   
+
    - O sistema oferecerá um menu com várias opções (1 a 8).
    - Escolha uma opção digitando o número correspondente e pressionando "Enter".
+   - Os Arquivos de saída estão nomeados como materials.json e orders.json
+   - A opção 7 cadastrar material deve conter o mesmo nome de registro da opção 1 - Registrar uma nova ordem de produção.
+   - A data no registro de ordem da opção 1 pode ser opcional, porém se for registrada deve respeitar o formato dd/MM/yyyy
+     
+     ![image](https://github.com/fabiodrneles/desafio-junior-ordem-product/assets/42509240/c7decb3d-ec30-4537-8440-47392ddb09d7)
+
+     ![image](https://github.com/fabiodrneles/desafio-junior-ordem-product/assets/42509240/4b8f2d63-3721-40ad-859e-911b15c36ceb)
+
+     ![image](https://github.com/fabiodrneles/desafio-junior-ordem-product/assets/42509240/58bdfff9-8de6-4995-b0e8-35448140bdb3)
+  
+     A opção 3 verifica os materiais disponíveis, estes devem ser buscados com o mesmo nome que foi cadastrado na opção 7, respeitando tanto letras Maiúsculas e minusculas se houver. Aquantidade se cadastrada maior do que a quantidade necessária resulta em uma mensagem positiva para disponibilidade, do contrário se a quantidade de necessidade na busca por disponibilidade for menor do que a quantidade cadastrada na opção 7, a mensagem será negativa para disponibilidade.
+
+     ![image](https://github.com/fabiodrneles/desafio-junior-ordem-product/assets/42509240/d598a5b6-4fe3-4584-9452-8481da67397a)
+
+     ![image](https://github.com/fabiodrneles/desafio-junior-ordem-product/assets/42509240/bd2dd30f-15d8-454a-ab9d-0d1b3207b6b3)
+
+     A opção 4 atualizar o status deve ser respondida exatamente de acordo com a mensagem entre parenteses. O ID que é solicitado aparece na opção 2
+
+     ![image](https://github.com/fabiodrneles/desafio-junior-ordem-product/assets/42509240/8398bf27-96f7-405a-8912-f546fc0dd2f1)
+
+     O ID será solicitado na opção 6 para remover, pode ser encontradona opção 2
+
+     ![image](https://github.com/fabiodrneles/desafio-junior-ordem-product/assets/42509240/7584ae3e-dea1-495a-b553-b9666f6b538e)
+
+     Os arquivos orders.json e o materials estão no formato json e são incrementados a medida que as ordens ou materiais são cadastrados.
+     ![image](https://github.com/fabiodrneles/desafio-junior-ordem-product/assets/42509240/bd28d1a6-cfcb-4ea1-864e-d9d84bb05d18)
+
+     ![image](https://github.com/fabiodrneles/desafio-junior-ordem-product/assets/42509240/7a11d083-471e-4731-8753-d49d7a50bf1f)
+
+     Estes arquivos estão com a data e hora no formato ISO 8601 (YYYY-MM-DDTHH:MM:SS), onde "YYYY" representa o ano, "MM" o mês, "DD" o dia, "THH" a hora, "MM" os minutos e "SS" os segundos. Porém a hora foi suprimida a nivel de codigo, caso deseje basta modificar no codigo para que seja fornecida esta informação da hora.
+
 
 ## Exemplos de Uso
 
