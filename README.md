@@ -106,7 +106,8 @@ Aqui estão alguns exemplos de como usar o sistema:
 
 ## Contribuições
 
-Contribuições para este projeto são bem-vindas. Sinta-se à vontade para abrir problemas, enviar solicitações pull e melhorar o sistema.
+Contribuições para este projeto são bem-vindas. Sinta-se à vontade para abrir problemas, enviar pull requests e melhorar o sistema.
+Não esqueça que este foi um sistema desenvolvido para um Desafio de nível junior, muitas regras de sistemas, modelagem e regras de negócio não estão implementadas devido á esta caracteristica, a intenção é treinar e estudar a linguagem e o desenvolvimento de aplicações a nivel junior. Avalie considerando o nível correto do desafio.
 
 ## Autores
 
